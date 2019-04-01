@@ -11,10 +11,11 @@ Prerequisite
 1. Clone the repository
 2. ```cd eds-starter6-simple-jpa/client```
 3. ```sencha app upgrade ../path/to/framework```
-4. ```sencha app watch```
-5. In another shell ```cd eds-starter6-simple-jpa```
-6. ```./mvnw spring-boot:run -Dspring.profiles.active="development"```
-7. Open url http://localhost:8080 in a browser
+4. If you get error.Try this:```sencha app upgrade --minimal ../path/to/framework```
+5. ```sencha app watch```
+6. In another shell ```cd eds-starter6-simple-jpa```
+7. ```./mvnw spring-boot:run -Dspring.profiles.active="development"```
+8. Open url http://localhost:8080 in a browser
 
 
 **Build the application for production**
